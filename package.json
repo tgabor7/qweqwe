@@ -2,7 +2,11 @@
   "name": "qweqwe",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/sidekick.js",
+  "types": "dist/sidekick.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
